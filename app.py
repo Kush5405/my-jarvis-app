@@ -66,7 +66,7 @@ except ImportError:
 # ======================================================================
 # Configuration
 # ======================================================================
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "llama-3.1-8b-instant"
 WORKSPACE = Path(
     os.environ.get("JARVIS_WORKSPACE", str(Path.home() / "jarvis_workspace"))
 ).expanduser().resolve()
